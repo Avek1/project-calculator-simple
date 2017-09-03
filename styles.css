@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    margin: auto;
+    max-width: 30rem;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+
+.calculator {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+}
+
+.result {
+    grid-column: 1/5;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.clear-result {
+    grid-column: 1/4;
+}
+
+.zero {
+    grid-column: 1/3;
+}
